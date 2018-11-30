@@ -6,7 +6,7 @@ const UpdateButton = ({ BillActions, billId, isBill }) => (
     variant="contained"
     onClick={() => BillActions.updateBill(billId, !isBill)}
   >
-    {isBill ? 'Remove Bill' : 'Add Bill'}
+    {isBill ? 'Remove Bill' : 'Add As Bill'}
   </Button>
 );
 
