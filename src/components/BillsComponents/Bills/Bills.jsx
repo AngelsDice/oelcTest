@@ -18,7 +18,7 @@ function TabContainer(props) {
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper
+    backgroundColor: '#ccc'
   },
   header: {
     backgroundColor: StyleConstants.colors.blue

@@ -10,6 +10,9 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = theme => ({
   details: {
     alignItems: 'center'
+  },
+  billItem: {
+    padding: '10px 24px'
   }
 });
 
@@ -21,7 +24,10 @@ const BillsList = ({ billsList, billCategories, BillActions, classes }) => {
     return (
       <React.Fragment key={bill.id}>
         <ExpansionPanel>
-          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+          <ExpansionPanelSummary
+            expandIcon={<ExpandMoreIcon />}
+            className={classes.billItem}
+          >
             <BillItem
               bill={bill}
               category={category}

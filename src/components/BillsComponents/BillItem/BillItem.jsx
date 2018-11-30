@@ -16,7 +16,11 @@ const styles = theme => ({
 const BillItem = ({ classes, bill, category, BillActions }) => (
   <div className={classes.root}>
     <div className={classes.column}>
-      <BillName name={bill.name} icon={bill.iconUrl} />
+      <BillName
+        name={bill.name}
+        icon={bill.iconUrl}
+        transactionCount={bill.transactions.length}
+      />
     </div>
     <div className={classes.column}>
       <CategoryName name={category.name} icon={category.iconUrl} />
