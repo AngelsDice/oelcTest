@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import Loader from '../../components/Loader';
+import Loader from '../../components/SharedComponents/Loader';
 import Bills from '../../components/BillsComponents/Bills';
 import * as BillActions from '../../actions/billsActions';
 import * as BillSelectors from '../../selectors/BillsSelectors';

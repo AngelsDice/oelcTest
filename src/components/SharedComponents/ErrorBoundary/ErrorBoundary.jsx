@@ -2,14 +2,6 @@ import React, { Component } from 'react';
 
 import styles from './ErrorBoundary.module.scss';
 
-// interface ErrorBoundaryProps{
-//     children: any
-// }
-
-// interface ErrorBoundaryState{
-//   hasError: Boolean
-// }
-
 export default class ErrorBoundary extends Component {
   constructor(props) {
     super(props);

@@ -7,8 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
 const styles = theme => ({
   root: {
     display: 'flex',
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.paper
+    flexGrow: 1
   },
   column: {
     flexBasis: '33.33%'
