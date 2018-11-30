@@ -27,7 +27,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "eslintConfig": {
@@ -51,6 +50,6 @@
     "babel-loader": "^8.0.4",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.3"
   }
 }

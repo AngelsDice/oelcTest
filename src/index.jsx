@@ -3,10 +3,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import ErrorBoundary from './components/ErrorBoundary';
 import { BrowserRouter } from 'react-router-dom';
-// import App from './App';
 import * as serviceWorker from './serviceWorker';
 import buildStore from './store/configureStore';
-import welcomeIcon from './assets/welcome.jpg';
 import Routes from './routes';
 
 import './index.scss';
